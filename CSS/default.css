@@ -1,0 +1,43 @@
+.Titre {
+    color: rgb(19, 107, 38);
+    padding-left:2rem;
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-left:-1rem;
+    margin-right: -1rem;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li { 
+/*        display: inline; */
+        float: left;
+}
+
+.navbar li a { 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
