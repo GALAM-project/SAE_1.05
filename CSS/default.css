@@ -45,11 +45,13 @@
     background-color: #111;
 }
 
-<<<<<<< HEAD
+
 .brochure {
     width: 600px;
     height: auto;
-=======
+}
+
+
 .corps_animation{
     display:flex;
     flex-direction: column;
@@ -57,6 +59,7 @@
     font-family: 'Open Sans', sans-serif;
     margin: 1em;
     padding: 1em;
+    color:red;
 }
 
 .titre_animation{
@@ -67,6 +70,7 @@
 }
 
 .lan_animation{
+    display:flex;
     flex-direction: row;
 }
 
@@ -80,5 +84,4 @@
 
 .stands_animation{
     flex-direction: row;
->>>>>>> f2d5babbe65947196e9b6a15ef994b6cbc8367c7
 }
