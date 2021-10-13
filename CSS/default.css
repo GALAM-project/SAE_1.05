@@ -45,7 +45,40 @@
     background-color: #111;
 }
 
+<<<<<<< HEAD
 .brochure {
     width: 600px;
     height: auto;
+=======
+.corps_animation{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em;
+    padding: 1em;
+}
+
+.titre_animation{
+    background-color: #333;
+    color: white;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.lan_animation{
+    flex-direction: row;
+}
+
+.cosplay_animation{
+    flex-direction: row;
+}
+
+.danse_animation{
+    flex-direction: row;
+}
+
+.stands_animation{
+    flex-direction: row;
+>>>>>>> f2d5babbe65947196e9b6a15ef994b6cbc8367c7
 }
