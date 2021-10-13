@@ -25,7 +25,7 @@
     overflow: hidden;
     background-color: #333;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
 }
 
 .navbar li { 
@@ -43,4 +43,9 @@
 
 .navbar li a:hover {
     background-color: #111;
+}
+
+.brochure {
+    width: 600px;
+    height: auto;
 }
