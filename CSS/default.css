@@ -51,36 +51,114 @@
     height: auto;
 }
 
+.titre_animation{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
 
 .corps_animation{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: 'Open Sans', sans-serif;
-    margin: 1em;
     padding: 1em;
-}
-
-.titre_animation{
-    background-color: #333;
-    color: white;
-    padding-left: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
 .lan_animation{
     display:flex;
     flex-direction: row;
+    background-color: #333;
+    margin: 2em;
+}
+
+.img_lan_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.desc_lan_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 5em;
 }
 
 .cosplay_animation{
+    display:flex;
     flex-direction: row;
+    background-color: #333;
+    margin: 2em;
+}
+
+.img_cosplay_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.desc_cosplay_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    padding-right: 5em;
 }
 
 .danse_animation{
+    display:flex;
     flex-direction: row;
+    background-color: #333;
+    margin: 2em;
+}
+
+.img_danse_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.desc_danse_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 5em;
 }
 
 .stands_animation{
+    display:flex;
     flex-direction: row;
+    background-color: #333;
+    margin: 2em;
+}
+
+.img_stands_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.desc_stands_anim{
+    display:flex;
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    padding-right: 5em;
 }
