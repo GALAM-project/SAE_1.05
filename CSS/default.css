@@ -44,3 +44,35 @@
 .navbar li a:hover {
     background-color: #111;
 }
+
+.corps_animation{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em;
+    padding: 1em;
+}
+
+.titre_animation{
+    background-color: #333;
+    color: white;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.lan_animation{
+    flex-direction: row;
+}
+
+.cosplay_animation{
+    flex-direction: row;
+}
+
+.danse_animation{
+    flex-direction: row;
+}
+
+.stands_animation{
+    flex-direction: row;
+}
