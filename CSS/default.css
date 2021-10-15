@@ -3,6 +3,23 @@ body {
     padding: 0 0 0 0;
 }
 
+#banner { 
+  margin: 0 -0.0em -0.3em -0.1em;
+  overflow:hidden;
+  }
+  
+  #banner img { 
+    width: 100%;
+    }
+    
+    #ban-container {
+      margin-right:auto;
+    }
+    
+    #ban-wrapper { 
+      overflow:hidden;
+    }
+  
 :root{
 --hauteur-menu: 60px;
 }
@@ -99,28 +116,26 @@ color: white;
     animation: rotationFleche 0.2s linear forwards;
   }
 
-  @keyframes apparitionSousMenu {
-    0% {
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
-      border-top: 3px solid #2169EC;
-    }
-    30% {
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
-    }
-    100% {
-      max-height: 50em;
-      border-top: 3px solid #2169EC;
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
-    }
+@keyframes apparitionSousMenu {
+  0% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+    border-top: 3px solid #2169EC;
   }
-
-  .menu-deroulant:hover > .sous-menu {
-    animation: apparitionSousMenu 1s forwards;
+  30% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
   }
-
-#banner { 
-margin: 0 -0.1em -0.3em -0.1em;
+  100% {
+    max-height: 50em;
+    border-top: 3px solid #2169EC;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+  }
 }
+
+.menu-deroulant:hover > .sous-menu {
+  animation: apparitionSousMenu 1s forwards;
+}
+
+
 
 .active {
 background-color: #4CAF50;
