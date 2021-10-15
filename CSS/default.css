@@ -141,7 +141,15 @@ color: white;
 background-color: #4CAF50;
 }
 
-
+.titre{
+    display: flex;
+    flex-direction: column;
+    background-color: #E38EDE;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
 
 /*
 .brochure {
@@ -150,17 +158,6 @@ background-color: #4CAF50;
 }
 */
 /* Partie CSS page animation*/
-
-.titre_animation{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 .corps_animation{
     display:flex;
@@ -178,12 +175,13 @@ background-color: #4CAF50;
 .lan_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #5CC8FF;
     margin: 2em;
 }
 
 .img_lan_anim{
     display:flex;
+    justify-content: center;
     background-color: white;
     margin: 2em;
     padding: 2em;
@@ -200,7 +198,7 @@ background-color: #4CAF50;
 .cosplay_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #4A66E0;
     margin: 2em;
 }
 
@@ -222,7 +220,7 @@ background-color: #4CAF50;
 .danse_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #5CC8FF;
     margin: 2em;
 }
 
@@ -244,7 +242,7 @@ background-color: #4CAF50;
 .stands_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #4A66E0;
     margin: 2em;
 }
 
@@ -264,16 +262,6 @@ background-color: #4CAF50;
 }
 
 /* Partie CSS page Lieu */
-
-.titre_lieu{
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 .corps_lieu{
     display: flex;
