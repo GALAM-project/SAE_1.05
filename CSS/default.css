@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Unique;
+  src: url (../fonts/Unique.ttf);
+}
+
 body { 
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -34,6 +39,7 @@ nav {
     font-size: 18px;
     position: sticky;
     top: 0;
+    font-family: "Unique";
   }
 
   nav > ul {
@@ -144,7 +150,7 @@ background-color: #4CAF50;
 .titre{
     display: flex;
     flex-direction: column;
-    background-color: #E38EDE;
+    background-color: #343633;
     color: white;
     font-family: 'Open Sans', sans-serif;
     padding: 2em;
