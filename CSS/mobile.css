@@ -22,4 +22,90 @@
         margin: 2em;
         padding: 1em;
     }
+/*Page animation*/
+
+    .lan_animation{
+        display:flex;
+        flex-direction: column;
+        background-color: #5CC8FF;
+        margin: 2em;
+    }
+    
+    .img_lan_anim{
+        display:flex;
+        background-color: white;
+        justify-content: center;
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .desc_lan_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
+    .cosplay_animation{
+        display:flex;
+        flex-direction: column;
+        background-color: #4A66E0;
+        margin: 2em;
+    }
+    
+    .img_cosplay_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .desc_cosplay_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
+    .danse_animation{
+        display:flex;
+        flex-direction: column;
+        background-color: #5CC8FF;
+        margin: 2em;
+    }
+    
+    .img_danse_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .desc_danse_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+        padding-left: 5em;
+    }
+    
+    .stands_animation{
+        display:flex;
+        flex-direction: column;
+        background-color: #4A66E0;
+        margin: 2em;
+    }
+    
+    .img_stands_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .desc_stands_anim{
+        display:flex;
+        background-color: white;
+        margin: 2em;
+        padding: 2em;
+    }
 }
+
