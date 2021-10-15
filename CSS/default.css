@@ -264,10 +264,6 @@ background-color: #4CAF50;
 
 /* Partie CSS page Lieu */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 56cb04ca8af0c8ce8d70ca53edc48ceba4395507
 .corps_lieu{
     display: flex;
     flex-direction: column;
@@ -303,4 +299,18 @@ background-color: #4CAF50;
     background-color: white;
     margin: 2em;
     padding: 1em;
+}
+#formulaire_contacte{
+  display: flex;
+  margin: 10em;
+  flex-direction: row;
+}
+#premierecolonne{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#premierecolonne{
+  display: flex;
+  flex-direction: column;
 }
