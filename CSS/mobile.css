@@ -55,6 +55,7 @@
     .img_cosplay_anim{
         display:flex;
         background-color: white;
+        justify-content: center;
         margin: 2em;
         padding: 2em;
     }
@@ -75,6 +76,7 @@
     .img_danse_anim{
         display:flex;
         background-color: white;
+        justify-content: center;
         margin: 2em;
         padding: 2em;
     }
@@ -97,6 +99,7 @@
     .img_stands_anim{
         display:flex;
         background-color: white;
+        justify-content: center;
         margin: 2em;
         padding: 2em;
     }
