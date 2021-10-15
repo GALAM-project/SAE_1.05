@@ -3,6 +3,23 @@ body {
     padding: 0 0 0 0;
 }
 
+#banner { 
+  margin: 0 -0.0em -0.3em -0.1em;
+  overflow:hidden;
+  }
+  
+  #banner img { 
+    width: 100%;
+    }
+    
+    #ban-container {
+      margin-right:auto;
+    }
+    
+    #ban-wrapper { 
+      overflow:hidden;
+    }
+  
 :root{
 --hauteur-menu: 60px;
 }
@@ -99,34 +116,41 @@ color: white;
     animation: rotationFleche 0.2s linear forwards;
   }
 
-  @keyframes apparitionSousMenu {
-    0% {
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
-      border-top: 3px solid #2169EC;
-    }
-    30% {
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
-    }
-    100% {
-      max-height: 50em;
-      border-top: 3px solid #2169EC;
-      box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
-    }
+@keyframes apparitionSousMenu {
+  0% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+    border-top: 3px solid #2169EC;
   }
-
-  .menu-deroulant:hover > .sous-menu {
-    animation: apparitionSousMenu 1s forwards;
+  30% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
   }
-
-#banner { 
-margin: 0 -0.1em -0.3em -0.1em;
+  100% {
+    max-height: 50em;
+    border-top: 3px solid #2169EC;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+  }
 }
+
+.menu-deroulant:hover > .sous-menu {
+  animation: apparitionSousMenu 1s forwards;
+}
+
+
 
 .active {
 background-color: #4CAF50;
 }
 
-
+.titre{
+    display: flex;
+    flex-direction: column;
+    background-color: #E38EDE;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
 
 /*
 .brochure {
@@ -135,17 +159,6 @@ background-color: #4CAF50;
 }
 */
 /* Partie CSS page animation*/
-
-.titre_animation{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 .corps_animation{
     display:flex;
@@ -163,12 +176,13 @@ background-color: #4CAF50;
 .lan_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #5CC8FF;
     margin: 2em;
 }
 
 .img_lan_anim{
     display:flex;
+    justify-content: center;
     background-color: white;
     margin: 2em;
     padding: 2em;
@@ -185,7 +199,7 @@ background-color: #4CAF50;
 .cosplay_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #4A66E0;
     margin: 2em;
 }
 
@@ -207,7 +221,7 @@ background-color: #4CAF50;
 .danse_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #5CC8FF;
     margin: 2em;
 }
 
@@ -229,7 +243,7 @@ background-color: #4CAF50;
 .stands_animation{
     display:flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #4A66E0;
     margin: 2em;
 }
 
@@ -250,16 +264,10 @@ background-color: #4CAF50;
 
 /* Partie CSS page Lieu */
 
-.titre_lieu{
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56cb04ca8af0c8ce8d70ca53edc48ceba4395507
 .corps_lieu{
     display: flex;
     flex-direction: column;
@@ -279,7 +287,7 @@ background-color: #4CAF50;
     flex-direction: row ;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #4A66E0;
     margin: 2em;
 }
 
