@@ -296,17 +296,3 @@ background-color: #4CAF50;
     margin: 2em;
     padding: 1em;
 }
-#formulaire_contacte{
-    display: flex;
-    margin: 10em;
-    flex-direction: row;
-}
-#premierecolonne{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-#premierecolonne{
-    display: flex;
-    flex-direction: column;
-}
