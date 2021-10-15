@@ -136,16 +136,6 @@ background-color: #4CAF50;
 */
 /* Partie CSS page animation*/
 
-.titre_animation{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 .corps_animation{
     display:flex;
@@ -250,15 +240,6 @@ background-color: #4CAF50;
 
 /* Partie CSS page Lieu */
 
-.titre_lieu{
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 .corps_lieu{
     display: flex;
