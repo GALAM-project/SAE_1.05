@@ -37,5 +37,44 @@
         </div>
     </header>
 
+    <div class="content-box">
+        <div class="content-box_nom">
+            <form action="/ma-page-de-traitement" method="post">
+                <div class="form_billet_nom">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div class="form_billet_mail">
+                    <label for="mail">e-mail :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>      
+            </form>
+        </div>
+        <div class="content-box_cb">
+            <div class="form_billet_nom">
+                <form action="/ma-page-de-traitement" method="post">
+                    <div class="form_billet_numero">
+                        <label>Numéro carte :</label>
+                        <input type="text" id="number" size = 14>
+                    </div>
+                    <div class="form_billet_ccv"> 
+                        <label>CCV :</label>
+                        <input type="text" id="number" size = 2>
+                    </div>
+                    <div class="form_billet_titu">
+                        <label>Nom titulaire :</label>
+                        <input type="text" id="number">
+                    </div>
+                    <div class="form_billet_date">
+                        <label>Date expiration :</label>
+                        <input type="text" id="number" size = 3>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class= "bouton_submit">
+            <input type="submit" name="envoyer" size="2">
+        </div>
+    </div>
 </body>
-</html>
+
