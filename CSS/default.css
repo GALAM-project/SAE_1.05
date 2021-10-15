@@ -144,7 +144,7 @@ background-color: #4CAF50;
 .titre{
     display: flex;
     flex-direction: column;
-    background-color: #E38EDE;
+    background-color: #343633;
     color: white;
     font-family: 'Open Sans', sans-serif;
     padding: 2em;
@@ -283,7 +283,7 @@ background-color: #4CAF50;
     flex-direction: row ;
     justify-content: center;
     align-items: center;
-    background-color: #4A66E0;
+    background-color: #5CC8FF;
     margin: 2em;
 }
 
@@ -313,4 +313,43 @@ background-color: #4CAF50;
 #premierecolonne{
   display: flex;
   flex-direction: column;
+}
+
+/*page faq*/
+
+.gen_faq{
+  display:flex;
+  background-color: #4A66E0;
+  flex-direction: column;
+}
+
+.titre_gen_faq{
+  display: flex;
+  color: white;
+  margin: 0.5em;
+}
+
+.gen_question{
+  display: flex;
+}
+
+.question1{
+  display:flex;
+  background-color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.question2{
+  display:flex;
+  background-color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.question3{
+  display:flex;
+  background-color: white;
+  margin: 0.5em;
+  padding: 0.5em;
 }
