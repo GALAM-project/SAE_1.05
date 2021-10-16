@@ -377,6 +377,9 @@ color: white;
 body{
   background: radial-gradient(#e66465, #9198e5);
 }
+.contactez-nous{
+  color: 343833;
+}
 
 #formulaire_contacte{
   display: flex;
@@ -384,9 +387,9 @@ body{
   justify-content: space-evenly;
   margin-left: 20em;
   margin-right: 20em;
+  margin-top: 4em;
   padding: 2em;
   flex-direction: row;
-  color: white;
   border-radius: 5px;
 }
 #premierecolonne{
