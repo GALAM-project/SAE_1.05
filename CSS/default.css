@@ -264,6 +264,51 @@ background-color: #4CAF50;
     padding-right: 5em;
 }
 
+/*css de la billeterie*/
+.content-box_nom{
+  margin: 2em;
+  box-sizing: initial;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  background: #e8daef;
+  justify-content: space-around;
+}
+.content-box_cb{
+  margin: 2em;
+  box-sizing: initial;
+  background: #e8daef;
+}
+.form_billet_nom{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_mail{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_numero{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_date{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_titu{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_ccv{
+  display: flex;
+  padding: 1em;
+}
+.bouton_submit{
+  display: flex;
+  height 20px;
+  align-items: center;
+} 
+
+
 /* Partie CSS page Lieu */
 
 .corps_lieu{
