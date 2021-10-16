@@ -1,5 +1,4 @@
 
-
 body { 
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -147,7 +146,7 @@ background-color: #4CAF50;
 .titre{
     display: flex;
     flex-direction: column;
-    background-color: #E38EDE;
+    background-color: #343633;
     color: white;
     font-family: 'Open Sans', sans-serif;
     padding: 2em;
@@ -286,8 +285,10 @@ background-color: #4CAF50;
     flex-direction: row ;
     justify-content: center;
     align-items: center;
-    background-color: #4A66E0;
-    margin: 2em;
+    background-color: #6eafdb;
+    margin: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
 }
 
 .map_lieu{
@@ -303,10 +304,21 @@ background-color: #4CAF50;
     margin: 2em;
     padding: 1em;
 }
+
+body{
+  background: radial-gradient(#e66465, #9198e5);
+}
+
 #formulaire_contacte{
   display: flex;
-  margin: 10em;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding: 2em;
   flex-direction: row;
+  color: white;
+  border-radius: 5px;
 }
 #premierecolonne{
   display: flex;
@@ -317,58 +329,94 @@ background-color: #4CAF50;
   display: flex;
   flex-direction: column;
 }
-.content-box {
+
+.Q{
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-  box-sizing: content-box; 
-  padding: 20px;
-  background: #4a66e0;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 10em;
+  justify-content: flex-start;
+  margin-right: 2em;
 }
 
-/*css de la billeterie*/
-.content-box_nom{
-  margin: 2em;
-  box-sizing: initial;
-  margin-bottom: 6em;
-  margin-top: 6em;
-  background: #e8daef;
-  justify-content: space-around;
+.R{
+  display:flex;
+  justify-self: flex-end;
+  margin-right: 1em;
 }
-.content-box_cb{
-  margin: 2em;
-  box-sizing: initial;
-  background: #e8daef;
+
+.gen_faq{
+  display: flex;
+  flex-direction: column;
+  background-color: #4A66E0;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 2em;
+  box-shadow: 60px -16px #343633;
 }
-.form_billet_nom{
+
+.titre_gen_faq{
+  display: flex;
+  margin: 1em;
+}
+
+.gen_question{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin: 1em;
+}
+
+.question1{
   display: flex;
   padding: 1em;
+  margin: 0.5em;
+  background-color: white;
 }
-.form_billet_mail{
+
+.question2{
   display: flex;
   padding: 1em;
+  margin: 0.5em;
+  background-color: white;
 }
-.form_billet_numero{
+
+.question3{
   display: flex;
   padding: 1em;
+  margin: 0.5em;
+  background-color: white;
 }
-.form_billet_date{
+
+.exp_faq{
+  display: flex;
+  flex-direction: column;
+  background-color: #4A66E0;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 2em;
+  box-shadow: 60px -16px #343633;
+}
+
+.titre_exp_faq{
+  display: flex;
+  margin: 1em;
+}
+
+.exp_question{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin: 1em;
+}
+
+.question4{
   display: flex;
   padding: 1em;
+  margin: 0.5em;
+  background-color: white;
 }
-.form_billet_titu{
+
+.question5{
   display: flex;
   padding: 1em;
-}
-.form_billet_ccv{
-  display: flex;
-  padding: 1em;
-}
-.bouton_submit{
-  display: flex;
-  height: 20px;
-  align-items: center;
+  margin: 0.5em;
+  background-color: white;
 }
