@@ -1,4 +1,60 @@
+
+@media (min-width: 100px) and (max-width: 700px)
+{ 
+    nav {
+        font-size: 12px;
+      }
+    .menu-deroulant > a:after{
+    font-size: 10px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px)
+{ 
+    nav {
+        font-size: 16px;
+      }
+    .menu-deroulant > a:after{
+    font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1250px)
+{ 
+    nav {
+        font-size: 20px;
+      }
+    .menu-deroulant > a:after{
+    font-size: 16px;
+    }
+}
+
+
+@media (min-width: 1250px) and (max-width: 1685px)
+{ 
+    nav {
+        font-size: 24px;
+      }
+    .menu-deroulant > a:after{
+    font-size: 20px;
+    }
+}
+
+
+/* 1080p screen */
+@media (min-width: 1685px)
+{ 
+}
+
+/* 1440p screen */
+@media (min-width: 2300px) /* 2300px est une valeur un peu au pif pour prendre en compte les écran 1080p et ce qui en est presque, libre à vous de changer */
+{ 
+}
+
 @media (max-width: 1250px) {
+
+    
 
     .info_lieu{
         display: flex;

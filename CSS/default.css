@@ -1,41 +1,65 @@
 
-body { 
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+/* général */
+@font-face {
+  font-family: 'The name of the Font Family Here';
+  src: URL('../fonts/Unique.ttf') format('truetype');
 }
 
-#banner { 
-  margin: 0 -0.0em -0.3em -0.1em;
-  overflow:hidden;
-  }
-  
-  #banner img { 
-    width: 100%;
-    }
-    
-    #ban-container {
-      margin-right:auto;
-    }
-    
-    #ban-wrapper { 
-      overflow:hidden;
-    }
-  
 :root{
 --hauteur-menu: 60px;
 }
+
 * {
 margin: 0px;
 padding: 0px;
-font-family: Montserrat, sans-serif;
 }
 
+body { 
+  overflow-x: hidden;
+}
+
+h1 { 
+  display: none; 
+}
+
+.titre{
+  display: flex;
+  flex-direction: row;
+  background-color: #343633;
+  color: white;
+  font-family: 'Unique';
+  padding: 0.5em;
+  padding-left: 1em;
+  margin-bottom: 2em;
+  justify-content: center;
+  font-size: 32px;
+}
+
+/* Bannière */
+#banner { 
+margin: 0 -0.0em -0.3em -0.1em;
+overflow:hidden;
+}
+
+#banner img { 
+width: 100%;
+}
+
+#ban-container {
+margin-right:auto;
+}
+
+#ban-wrapper { 
+overflow:hidden;
+}
+  
+
+/* navbar */
 nav {
     width: 100%;
-    font-size: 18px;
+    font-size: 32px;
     position: sticky;
     top: 0;
-    font-family: "Unique";
   }
 
   nav > ul {
@@ -61,8 +85,16 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Unique';
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   
+
+
   li a {
     text-decoration: none;
     color: black;
@@ -70,9 +102,14 @@ nav {
   
   .menu-deroulant > a:after{
     content: '❯';
-    font-size: 15px;
+    font-size: 24px;
     margin-left: 7px;
-    display: inline-block;
+    display:inline-block;
+    line-height: 0px;
+  }
+
+  .menu-deroulant > a{
+    padding: 0em 0em 0em 0em;
   }
 
   .sous-menu {
@@ -91,6 +128,7 @@ nav {
     width: 100%;
     align-items: center;
     display: flex;
+    font-family: 'Unique';
   }
 
 nav > ul > li:hover > a{
@@ -114,9 +152,10 @@ color: white;
 }
 }
 
-.menu-deroulant:hover > a:after{
+.menu-deroulant:hover > a::after{
     animation: rotationFleche 0.2s linear forwards;
   }
+
 
 @keyframes apparitionSousMenu {
   0% {
@@ -138,21 +177,6 @@ color: white;
 }
 
 
-
-.active {
-background-color: #4CAF50;
-}
-
-.titre{
-    display: flex;
-    flex-direction: column;
-    background-color: #343633;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding: 2em;
-    padding-left: 1em;
-    margin-bottom: 2em;
-}
 
 /*
 .brochure {
@@ -304,7 +328,7 @@ background-color: #4CAF50;
 }
 .bouton_submit{
   display: flex;
-  height 20px;
+  height: 20px;
   align-items: center;
 } 
 
