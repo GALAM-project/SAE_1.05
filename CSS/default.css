@@ -17,6 +17,22 @@ body {
   background: radial-gradient(#e66465, #9198e5);
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #343633; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #4A66E0; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #4A66E0; /* creates padding around scroll thumb */
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4A66E0 #343633;
+}
+
 #main{
   min-height:100%;
   margin:0 auto;
@@ -44,7 +60,7 @@ h1 {
 
 /* Bannière */
 #banner { 
-margin: 0 -0.0em -0.3em -0.1em;
+margin: 0 0em -0.3em -0.1em;
 overflow:hidden;
 }
 
@@ -67,6 +83,7 @@ nav {
     font-size: 32px;
     position: sticky;
     top: 0;
+    position: relative;
   }
 
   nav > ul {
@@ -253,13 +270,95 @@ footer {
 }
 
 
-/*index*/
-/*
-.brochure {
-    width: 600px;
-    height: auto;
+/* Accueil */
+
+.corps_accueil {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1em solid #37388B;
+  border-style: solid;
+  background-color: #5CC8FF;
+  background: radial-gradient(rgb(226, 249, 255), #5CC8FF);
+  font-family: 'Open Sans', sans-serif;
 }
-*/
+
+.brochure {
+    width: auto;
+    height: 100%;
+    margin-left: 0ex;
+    border: 1em solid #37388B;
+}
+
+.text_accueil 
+{
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1em solid #37388B;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_accueil h3
+{
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  font-family: Unique;
+  font-size: 40px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_accueil p {
+  font-size: 32px;
+}
+
+.text_accueil ul {
+  font-size: 100px;
+  list-style: none;
+  margin-left: 1.7ex;
+  line-height: 50%;
+}
+
+.text_accueil li#JV { 
+  list-style:url(../images/icones/game-controller.svg);
+}
+.text_accueil li#just_dance { 
+  list-style:url(../images/icones/musical-notes.svg);
+}
+.text_accueil li#anim { 
+  list-style:url(../images/icones/film.svg);
+}
+.text_accueil li#cosplay { 
+  list-style:url(../images/icones/shirt.svg);
+}
+.text_accueil li#concert { 
+  list-style:url(../images/icones/mic.svg);
+}
+
+.text_accueil li span {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+p.dotted
+{ 
+  border-bottom: 3px dashed black;
+  font-family:'Courier New', Courier, monospace;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.espace {
+  padding:1em;
+}
+
 /* Partie CSS page animation*/
 
 .corps_animation{
