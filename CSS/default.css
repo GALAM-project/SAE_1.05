@@ -1,9 +1,5 @@
 
 /* général */
-@font-face {
-  font-family: 'The name of the Font Family Here';
-  src: URL('../fonts/Unique.ttf') format('truetype');
-}
 
 :root{
 --hauteur-menu: 60px;
