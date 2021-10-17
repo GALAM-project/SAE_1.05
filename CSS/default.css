@@ -366,7 +366,19 @@ footer {
 }
 
 /*css de la billeterie*/
-.content-box{
+.content-box_tarifs{
+  display: flex;
+  margin: 2em;
+  box-sizing: initial;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  background: #e8daef;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+
+.content-box-form{
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -387,7 +399,6 @@ footer {
   padding: 1em;
   display: flex;
   flex-direction: row;
-
 }
 .content-box_tarifs{
   display: flex;
@@ -398,35 +409,10 @@ footer {
   background: #e8daef;
   justify-content: space-around;
   padding: 2%;
+  height: 12em;
+  width: auto;
 }
-.form_billet_nom{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_Prenom{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_mail{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_numero{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_date{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_titu{
-  display: flex;
-  padding: 1em;
-}
-.form_billet_ccv{
-  display: flex;
-  padding: 1em;
-}
+
 .bouton_submit{
   display: flex;
   height: 20px;
