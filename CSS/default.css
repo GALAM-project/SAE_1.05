@@ -366,20 +366,30 @@ footer {
 }
 
 /*css de la billeterie*/
-.content-box_nom{
+.content-box{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
   margin: 2em;
   box-sizing: initial;
-  margin-bottom: 6em;
-  margin-top: 6em;
   background: #e8daef;
-  justify-content: space-around;
+}
+.content-box_nom{
+  padding: 1em;
+  flex-direction: row;
+  align-items: center;
 }
 .content-box_cb{
-  margin: 2em;
-  box-sizing: initial;
-  background: #e8daef;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+
 }
 .form_billet_nom{
+  display: flex;
+  padding: 1em;
+}
+.form_billet_Prenom{
   display: flex;
   padding: 1em;
 }
@@ -407,6 +417,7 @@ footer {
   display: flex;
   height: 20px;
   align-items: center;
+  padding-top: 1em;
 } 
 
 
