@@ -374,10 +374,14 @@ footer {
   box-sizing: initial;
   background: #e8daef;
 }
+.choix_ticket{
+  display: flex;
+  padding: 1em;
+}
 .content-box_nom{
+  display: flex;
   padding: 1em;
   flex-direction: row;
-  align-items: center;
 }
 .content-box_cb{
   padding: 1em;
@@ -416,7 +420,6 @@ footer {
 .bouton_submit{
   display: flex;
   height: 20px;
-  align-items: center;
   padding-top: 1em;
 } 
 
@@ -462,6 +465,8 @@ footer {
     padding: 1em;
 }
 
+/*CSS contctez-nous*/
+
 .contactez-nous{
   color: 343833;
 }
@@ -486,6 +491,8 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+/*CSS FAQ*/
 
 .Q{
   display: flex;
