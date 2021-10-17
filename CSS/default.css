@@ -35,7 +35,7 @@ h1 {
   font-family: 'Unique';
   padding: 0.5em;
   padding-left: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   justify-content: center;
   font-size: 32px;
 }
@@ -488,6 +488,10 @@ footer {
   margin-right: 1em;
 }
 
+/* FAQ */
+.corps_faq{
+  font-family: 'Open Sans', sans-serif;
+}
 .gen_faq{
   display: flex;
   flex-direction: column;
