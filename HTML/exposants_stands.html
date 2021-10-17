@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Laponia Exposants</title>
+    <title>Laponia Billeterie</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="../CSS/fonts.css" type="text/css"/>
     <link rel="stylesheet" href="../CSS/default.css"/>
     <link rel="stylesheet" href="../CSS/mobile.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-</head>
-<link rel="stylesheet" href="../CSS/default.css"/>
-<link rel="stylesheet" href="../CSS/mobile.css"/>
 </head>
 <body>
     <div id="main">
@@ -18,7 +15,7 @@
             <div id="banner">
                 <div id="wrapper">
                     <div id="container">
-                        <img src="../images/banner_v3.jpg"/>
+                        <img src="../images/banner_v3.jpg" alt="bannière du haut"/>
                     </div>
                 </div>
             </div>
@@ -37,16 +34,50 @@
                         <li><a href="lieu.html">Lieu</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="exposants_stands.html">Exposants</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </nav>
             </div>
             <div class="titre">
-                <h2>Exposants</h2>
+                <h2>Billeterie</h2>
             </div>
         </header>
-
+        <div class="content-box_tarifs">
+            <img src="../images/stand_amateur.png" alt="image_tarif_stand_amateur">
+            <img src="../images/stand_pro.png" alt="image_tarif_stand_pro">
+        </div>
+        <div class="content-box-form">
+            <div class="choix_ticket">
+                <select name="sexe">
+                        <option id="ticket_1j">Amateur</option>
+                        <option id="ticket_3j">Pro</option>
+                </select>
+            </div>
+            <div class="content-box_nom">
+                <form action="/ma-page-de-traitement" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom">
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" value=" "/>
+                    <label for="mail">Email :</label>
+                    <input type="email" id="email" name="email">     
+                </form>
+            </div>
+            <div class="content-box_cb">
+                <form action="/ma-page-de-traitement" method="post">
+                    <label>Numéro carte :</label>
+                    <input type="number" id="numéro_carte" >
+                    <label>CCV :</label>
+                    <input type="number" id="numérosecret" >
+                    <label>Nom titulaire :</label>
+                    <input type="text" id="nom/prenom">
+                    <label>Date expiration :</label>
+                    <input type="month" id="date_expiration">
+                    <div class= "bouton_submit">
+                        <input type="submit" name="payer">
+                    </div>
+                </form> 
+            </div>
+        </div>
         <footer>
             <div class="footer-basic">
                 <div class="social">

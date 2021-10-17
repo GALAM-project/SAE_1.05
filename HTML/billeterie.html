@@ -15,7 +15,7 @@
             <div id="banner">
                 <div id="wrapper">
                     <div id="container">
-                        <img src="../images/banner_v3.jpg"/>
+                        <img src="../images/banner_v3.jpg" alt="bannière du haut"/>
                     </div>
                 </div>
             </div>
@@ -34,8 +34,6 @@
                         <li><a href="lieu.html">Lieu</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="exposants_stands.html">Exposants</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </nav>
             </div>
@@ -43,47 +41,51 @@
                 <h2>Billeterie</h2>
             </div>
         </header>
-
-        <div class="content-box">
-            <div class="content-box_nom">
-                <form action="/ma-page-de-traitement" method="post">
-                    <div class="form_billet_nom">
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div class="form_billet_mail">
-                        <label for="mail">e-mail :</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>      
-                </form>
+        <div class="content-box_tarifs">
+            <img src="../images/billet_1j.png" alt="image_tarif_1J">
+            <img src="../images/billet_3j.png" alt="image_tarif_3J">
+        </div>
+        <div class="content-box-form">
+            <div class="choix_ticket">
+                <select name="sexe">
+                        <option id="ticket_1j">ticket 1j</option>
+                        <option id="ticket_3j">ticket 3j</option>
+                </select>
             </div>
-            <div class="content-box_cb">
-                <div class="form_billet_nom">
+            <div class="content-box-form">
+                <div class="choix_ticket">
+                    <select name="sexe">
+                            <option id="ticket_1j">Amateur</option>
+                            <option id="ticket_3j">Pro</option>
+                    </select>
+                </div>
+                <div class="content-box_nom">
                     <form action="/ma-page-de-traitement" method="post">
-                        <div class="form_billet_numero">
-                            <label>Numéro carte :</label>
-                            <input type="text" id="number" size = 14>
-                        </div>
-                        <div class="form_billet_ccv"> 
-                            <label>CCV :</label>
-                            <input type="text" id="number" size = 2>
-                        </div>
-                        <div class="form_billet_titu">
-                            <label>Nom titulaire :</label>
-                            <input type="text" id="number">
-                        </div>
-                        <div class="form_billet_date">
-                            <label>Date expiration :</label>
-                            <input type="text" id="number" size = 3>
-                        </div>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom">
+                        <label for="prenom">Prénom:</label>
+                        <input type="text" id="prenom" name="prenom" value=" "/>
+                        <label for="mail">Email :</label>
+                        <input type="email" id="email" name="email">     
                     </form>
                 </div>
-            </div>
-            <div class= "bouton_submit">
-                <input type="submit" name="envoyer" size="2">
+                <div class="content-box_cb">
+                    <form action="/ma-page-de-traitement" method="post">
+                        <label>Numéro carte :</label>
+                        <input type="number" id="numéro_carte" >
+                        <label>CCV :</label>
+                        <input type="number" id="numérosecret" >
+                        <label>Nom titulaire :</label>
+                        <input type="text" id="nom/prenom">
+                        <label>Date expiration :</label>
+                        <input type="month" id="date_expiration">
+                        <div class= "bouton_submit">
+                            <input type="submit" name="payer">
+                        </div>
+                    </form> 
+                </div>
             </div>
         </div>
-
         <footer>
             <div class="footer-basic">
                 <div class="social">

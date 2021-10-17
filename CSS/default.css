@@ -465,47 +465,57 @@ p.dotted
 }
 
 /*css de la billeterie*/
-.content-box_nom{
+.content-box_tarifs{
+  display: flex;
   margin: 2em;
   box-sizing: initial;
   margin-bottom: 6em;
   margin-top: 6em;
   background: #e8daef;
   justify-content: space-around;
+  padding: 2%;
 }
-.content-box_cb{
+
+
+.content-box-form{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
   margin: 2em;
   box-sizing: initial;
   background: #e8daef;
 }
-.form_billet_nom{
+.choix_ticket{
   display: flex;
   padding: 1em;
 }
-.form_billet_mail{
+.content-box_nom{
   display: flex;
   padding: 1em;
+  flex-direction: row;
 }
-.form_billet_numero{
-  display: flex;
+.content-box_cb{
   padding: 1em;
-}
-.form_billet_date{
   display: flex;
-  padding: 1em;
+  flex-direction: row;
 }
-.form_billet_titu{
+.content-box_tarifs{
   display: flex;
-  padding: 1em;
+  margin: 2em;
+  box-sizing: initial;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  background: #e8daef;
+  justify-content: space-around;
+  padding: 2%;
+  height: 12em;
+  width: auto;
 }
-.form_billet_ccv{
-  display: flex;
-  padding: 1em;
-}
+
 .bouton_submit{
   display: flex;
   height: 20px;
-  align-items: center;
+  padding-top: 1em;
 } 
 
 
@@ -550,6 +560,8 @@ p.dotted
     padding: 1em;
 }
 
+/*CSS contctez-nous*/
+
 .contactez-nous{
   color: 343833;
 }
@@ -574,6 +586,8 @@ p.dotted
   display: flex;
   flex-direction: column;
 }
+
+/*CSS FAQ*/
 
 .Q{
   display: flex;
