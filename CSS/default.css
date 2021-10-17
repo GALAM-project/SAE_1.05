@@ -389,6 +389,16 @@ footer {
   flex-direction: row;
 
 }
+.content-box_tarifs{
+  display: flex;
+  margin: 2em;
+  box-sizing: initial;
+  margin-bottom: 6em;
+  margin-top: 6em;
+  background: #e8daef;
+  justify-content: space-around;
+  padding: 2%;
+}
 .form_billet_nom{
   display: flex;
   padding: 1em;
