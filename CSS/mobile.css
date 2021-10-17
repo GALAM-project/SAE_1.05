@@ -7,6 +7,12 @@
     .menu-deroulant > a:after{
     font-size: 10px;
     }
+    .titre{
+        font-size: 12px;
+      }
+    :root{
+        --hauteur-menu: 20px;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 1000px)
@@ -16,6 +22,12 @@
       }
     .menu-deroulant > a:after{
     font-size: 14px;
+    }
+    .titre{
+        font-size: 16px;
+      }
+    :root{
+        --hauteur-menu: 30px;
     }
 }
 
@@ -28,6 +40,12 @@
     .menu-deroulant > a:after{
     font-size: 16px;
     }
+    .titre{
+        font-size: 20px;
+      }
+    :root{
+        --hauteur-menu: 40px;
+    }
 }
 
 
@@ -39,17 +57,35 @@
     .menu-deroulant > a:after{
     font-size: 20px;
     }
+    .titre{
+        font-size: 24px;
+      }
+    :root{
+        --hauteur-menu: 50px;
+    }
 }
 
 
 /* 1080p screen */
-@media (min-width: 1685px)
+@media (min-width: 1685px) and (max-width: 3000px)
 { 
 }
 
 /* 1440p screen */
-@media (min-width: 2300px) /* 2300px est une valeur un peu au pif pour prendre en compte les écran 1080p et ce qui en est presque, libre à vous de changer */
+@media (min-width: 3000px)
 { 
+    nav {
+        font-size: 50px;
+      }
+    .menu-deroulant > a:after{
+    font-size: 40px;
+    }
+    .titre{
+        font-size: 60px;
+      }
+    :root{
+        --hauteur-menu: 100px;
+    }
 }
 
 @media (max-width: 1250px) {

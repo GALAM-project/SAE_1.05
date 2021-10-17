@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Unique';
+    src: url('../fonts/Unique.eot');
+    src: url('../fonts/Unique.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Unique.woff2') format('woff2'),
+         url('../fonts/Unique.woff') format('woff'),
+         url('../fonts/Unique.ttf')  format('truetype'),
+         url('../fonts/Unique.svg#Unique') format('svg');
+}
