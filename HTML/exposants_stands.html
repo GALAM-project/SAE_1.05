@@ -42,36 +42,38 @@
             </div>
         </header>
         <div class="content-box_tarifs">
-            <img src="../images/billet_1j.png" alt="image_tarif_1J">
-            <img src="../images/billet_3j.png" alt="image_tarif_3J">
+            <img src="../images/stand_amateur.png" alt="image_tarif_stand_amateur">
+            <img src="../images/stand_pro.png" alt="image_tarif_stand_pro">
         </div>
         <div class="content-box-form">
             <div class="choix_ticket">
                 <select name="sexe">
-                        <option id="ticket_1j"></option>
-                        <option id="ticket_3j">ticket 3j</option>
+                        <option id="ticket_1j">Amateur</option>
+                        <option id="ticket_3j">Pro</option>
                 </select>
             </div>
-            <form class="content-box_nom" action="/ma-page-de-traitement" method="post">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom">
-                <label for="prenom">Prénom:</label>
-                <input id="prenom" type="text" name="prenom" value=" "/>
-                <label for="mail">Email :</label>
-                <input type="email" id="mail" name="user_mail">     
-            </form>
+            <div class="content-box_nom">
+                <form action="/ma-page-de-traitement" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom">
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" value=" "/>
+                    <label for="mail">Email :</label>
+                    <input type="email" id="email" name="email">     
+                </form>
+            </div>
             <div class="content-box_cb">
                 <form action="/ma-page-de-traitement" method="post">
                     <label>Numéro carte :</label>
-                    <input type="text" id="number1" size = 14>
+                    <input type="number" id="numéro_carte" >
                     <label>CCV :</label>
-                    <input type="text" id="number2" size = 2>
+                    <input type="number" id="numérosecret" >
                     <label>Nom titulaire :</label>
-                    <input type="text" id="number3">
+                    <input type="text" id="nom/prenom">
                     <label>Date expiration :</label>
-                    <input type="text" id="number4" size = 3>
+                    <input type="month" id="date_expiration">
                     <div class= "bouton_submit">
-                        <input type="submit" name="envoyer" size="2">
+                        <input type="submit" name="payer">
                     </div>
                 </form> 
             </div>
