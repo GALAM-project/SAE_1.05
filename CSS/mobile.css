@@ -568,6 +568,28 @@
         --hauteur-menu: 100px;
     }
 
+    /* accueil */
+    .text_accueil h3
+    {
+      margin-top: 1em;
+      margin-bottom: 0.2em;
+      font-size: 50px;
+    }
+    
+    .text_accueil p {
+      font-size: 50px;
+    }
+    
+    .text_accueil ul {
+      font-size: 95px;
+      margin-left: 1.7ex;
+      line-height: 75%;
+    }
+
+    .text_accueil li span {
+        font-size: 50px;
+      }
+
        /* concert */ 
        .NTNT_Team{
         height:15em;
