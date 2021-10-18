@@ -72,6 +72,11 @@
           width: auto;
           height: auto;
         }
+  /* Billeterie - Exposants */ 
+  .content-box_tarifs img{
+    height:4em;
+    width:7em;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1000px)
@@ -147,6 +152,11 @@
           width: auto;
           height: auto;
         }
+  /* Billeterie - Exposants */ 
+  .content-box_tarifs img{
+    height:6em;
+    width:auto;
+  }
 }
 
 
@@ -202,6 +212,11 @@
     .text_accueil li span {
         font-size: 22px;
       }
+      /* Billeterie - Exposants */ 
+  .content-box_tarifs img{
+    height:8em;
+    width:auto;
+  }
 }
 
 
@@ -257,7 +272,13 @@
     .text_accueil li span {
         font-size: 26px;
       }
-
+  
+  /* Billeterie - Exposants */ 
+  .content-box_tarifs img{
+    height:8em;
+    width:auto;
+  }
+      
 }
 
 /* lèrement inférieur à celui d'en dessous screen, pour l'accueil */
@@ -308,6 +329,10 @@
 
     .text_accueil li span {
         font-size: 32px;
+      }
+      .content-box_tarifs img{
+        height:10em;
+        width:auto;
       }
 }
 
