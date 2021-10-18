@@ -272,6 +272,7 @@ footer {
 
 /* Accueil */
 
+
 .corps_accueil {
   font-size: 24px;
   display: flex;
@@ -288,7 +289,7 @@ footer {
 }
 
 .brochure {
-    width: auto;
+    width: 200%;
     height: 100%;
     margin-left: 0ex;
     border: 1em solid #37388B;
@@ -298,7 +299,7 @@ footer {
 {
   padding-left: 1em;
   padding-right: 1em;
-  border: 1em solid #37388B;
+  border: 1ex solid #37388B;
   display: flex;
   flex-direction: column;
 }
@@ -343,7 +344,6 @@ footer {
 
 .text_accueil li span {
   font-size: 36px;
-  margin-bottom: 1em;
 }
 
 p.dotted
