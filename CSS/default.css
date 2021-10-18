@@ -107,7 +107,7 @@ nav {
    
   nav ul {
     list-style-type: none;
-  }
+  } 
   
   nav > ul > li {
     background-color:  #e8daef ;
@@ -373,16 +373,105 @@ p.dotted
 
 /* Concert */ 
 
+.concert{
+  display:flex;
+  flex-direction: column;
+}
+.concert > .corps_accueil:nth-child(2) {
+  flex-direction: row;
+ }
+.corps_accueil > ul{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1ex #37388B;
+  justify-content:center;
+  width: 100%;
+}
+.concert > .corps_accueil > .text_accueil > p { 
+  text-align: center;
+  padding-bottom:1ex;
+}
+.concert li{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  margin: 0.5em;
+  border-left: solid 1ex #ffa4d9;
+  border-right: solid 1ex #ffa4d9;
+  border-bottom: solid 1ex #ffa4d9;
+  border-radius: 0% 10% 0% 0%;
+}
+.concert li p{
+  font-family: dolcevita;
+  background-color: #ffa4d9;
+  width: 100%;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  border-radius: 0% 10% 0% 0%;
+}
+.NTNT_Team{
+  width:auto;
+  height:8em;
+  background-color: rgba(255, 0, 149, 0.384);
+}
 .corps_accueil video {
   width: 200%;
   height: 100%;
   margin-left: 0ex;
   border: 1ex solid #37388B;
 }
+.text_concert 
+{
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1ex solid #37388B;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-family:"dosis";
+  padding-bottom: 3em;
+}
+.text_concert h3
+{
+  margin-top: 1em;
+  margin-bottom: 1ex;
+  font-family: Unique;
+  font-size: 60px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
 
-
-.controlsContainer { 
-  --clickToPlay-size: 0em !important; 
+.text_concert ul {
+  font-size: 80px;
+  list-style: none;
+  text-shadow: 1px 2px 3px rgba(0,0,0, .7);
+  line-height: 0%;
+}
+.text_concert li#concert { 
+  list-style:url(../images/icones/game-controller.svg);
+}
+.text_concert li#autographe { 
+  list-style:url(../images/icones/musical-notes.svg);
+}
+.text_concert li {
+  font-size: 36px;
+}
+.text_concert li{
+  border: 0;
+  margin-right:0;
+  margin-left:0;
+}
+.evenement{
+  padding-top:1em;
+  font-family: quicksand;
+  font-size: 56px !important;
+  line-height: 50%;
+}
+.heure{
+  line-height: 100%;
 }
 
 

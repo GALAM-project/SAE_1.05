@@ -14,6 +14,11 @@
         --hauteur-menu: 20px;
     }
 
+    /* background blue pour petit écran pour accueil et concert */
+    .i_am_blue { 
+      background: #37388B;
+    }
+
     /* accueil */
     .background_blue {
         background-color: #37388B;
@@ -77,6 +82,46 @@
     height:4em;
     width:7em;
   }
+
+  /* concert */
+  .concert > .corps_accueil > .text_accueil > p { 
+    font-size: 20px;
+  }
+  .corps_accueil > ul{
+    padding:1ex;
+  }
+  .NTNT_Team{
+    font-size: 10px;
+  }
+  .concert li{
+    margin: 0.1em;
+  }
+  .concert li p{
+    font-size:15px;
+    border-radius: 0% 0% 0% 0%;
+  }
+  .text_concert h3
+  {
+    font-size: 25px;
+  }
+  .text_concert li {
+    font-size: 20px;
+  }
+  .evenement{
+    font-size: 25px !important;
+    line-height: 100%;
+  }
+  .heure{
+    line-height: 100%;
+  }
+  .lieu{ 
+    line-height: 100%;
+  }
+  .text_concert 
+  {
+  padding-left: 1ex;
+  padding-right: 1ex;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1000px)
@@ -92,6 +137,11 @@
       }
     :root{
         --hauteur-menu: 30px;
+    }
+
+    /* background blue pour petit écran pour accueil et concert */
+    .i_am_blue { 
+      background: #37388B;
     }
 
     /* accueil */
@@ -157,6 +207,45 @@
     height:6em;
     width:auto;
   }
+  /* concert */
+  .concert > .corps_accueil > .text_accueil > p { 
+    font-size: 20px;
+  }
+  .corps_accueil > ul{
+    padding:1ex;
+  }
+  .NTNT_Team{
+    font-size: 10px;
+  }
+  .concert li{
+    margin: 0.1em;
+  }
+  .concert li p{
+    font-size:15px;
+    border-radius: 0% 0% 0% 0%;
+  }
+  .text_concert h3
+  {
+    font-size: 25px;
+  }
+  .text_concert li {
+    font-size: 20px;
+  }
+  .evenement{
+    font-size: 25px !important;
+    line-height: 100%;
+  }
+  .heure{
+    line-height: 100%;
+  }
+  .lieu{ 
+    line-height: 100%;
+  }
+  .text_concert 
+  {
+  padding-left: 1ex;
+  padding-right: 1ex;
+  }
 }
 
 
@@ -216,6 +305,14 @@
   .content-box_tarifs img{
     height:8em;
     width:auto;
+  }
+
+  /* concert */ 
+  .concert > .corps_accueil > .text_accueil > p { 
+    font-size: 20px;
+  }
+  .NTNT_Team{
+    height:5em;
   }
 }
 
@@ -277,6 +374,10 @@
   .content-box_tarifs img{
     height:8em;
     width:auto;
+  }
+  /* concert */ 
+  .NTNT_Team{
+    height:7em;
   }
       
 }
@@ -367,7 +468,7 @@
 }
 
 /* 1440p screen */
-@media (min-width: 2300px) and (max-width: 3000px)
+@media (min-width: 2100px) and (max-width: 3000px)
 { 
     nav {
         font-size: 40px;
@@ -403,6 +504,27 @@
     .text_accueil li span {
         font-size: 46px;
       }
+       /* concert */ 
+  .NTNT_Team{
+    height:13em;
+  }
+  .text_concert h3
+  {
+    font-size: 70px;
+  }
+  .text_concert li {
+    font-size: 50px;
+  }
+  .evenement{
+    font-size: 70px !important;
+    line-height: 100%;
+  }
+  .heure{
+    line-height: 100%;
+  }
+  .lieu{ 
+    line-height: 100%;
+  }
 }
 
 /* 4K screen */
@@ -420,6 +542,29 @@
     :root{
         --hauteur-menu: 100px;
     }
+
+       /* concert */ 
+       .NTNT_Team{
+        height:15em;
+      }
+      .text_concert h3
+      {
+        font-size: 70px;
+      }
+      .text_concert li {
+        font-size: 50px;
+      }
+      .evenement{
+        font-size: 70px !important;
+        line-height: 100%;
+      }
+      .heure{
+        line-height: 100%;
+      }
+      .lieu{ 
+        line-height: 100%;
+      }
+  
 }
 
 @media (max-width: 1250px) {
