@@ -26,7 +26,7 @@
                             <li><a href="../index.html">Accueil</a></li>
                             <li><a href="billeterie.html">Billetterie</a></li>
                             <li class="menu-deroulant">
-                                <a href="#">Évenements</a>
+                                <a href="#">Évènements</a>
                                 <ul class="sous-menu">
                                     <li><a href="concert.html">Concert</a></li>
                                     <li><a href="animations.html">Animations</a></li>
@@ -39,7 +39,7 @@
                     </nav>
                 </div>
                 <div class="titre">
-                    <h2>Billeterie</h2>
+                    <h2>Billetterie</h2>
                 </div>
             </header>
             <div class="content-box_tarifs">
@@ -47,39 +47,48 @@
                 <img src="../images/billet_3j.png" alt="image_tarif_3J">
             </div>
             <div class="content-box-form">
-                <div class="choix_ticket">
-                    <select name="sexe">
-                            <option id="ticket_1j">ticket 1j</option>
-                            <option id="ticket_3j">ticket 3j</option>
-                    </select>
-                </div>
-                <div class="content-box_nom">
-                    <form action="/ma-page-de-traitement" method="post">
-                        <label for="nom">Nom :</label>
-                        <input type="text" id="nom" name="nom">
-                        <label for="prenom">Prénom:</label>
-                        <input type="text" id="prenom" name="prenom" value=" "/>
-                        <label for="mail">Email :</label>
-                        <input type="email" id="email" name="email">     
-                    </form>
-                </div>
-                <div class="content-box_cb">
-                    <form action="/ma-page-de-traitement" method="post">
-                        <label>Numéro carte :</label>
-                        <input type="number" id="numéro_carte" >
-                        <label>CCV :</label>
-                        <input type="number" id="numérosecret" >
-                        <label>Nom titulaire :</label>
-                        <input type="text" id="nom/prenom">
-                        <label>Date expiration :</label>
-                        <input type="month" id="date_expiration">
-                        <div class= "bouton_submit">
-                            <input type="submit" name="payer">
-                        </div>
-                    </form>
+                <div class="content-box-form">
+                    <div class="choix_ticket">
+                        <select name="sexe">
+                                <option id="Homme">Homme</option>
+                                <option id="Femme">Femme</option>
+                        </select>
+                    </div>
+                    <div class="choix_ticket">
+                        <select name="sexe">
+                                <option id="ticket_1j">ticket 1 jour</option>
+                                <option id="ticket_3j">ticket 3 jours</option>
+                        </select>
+                    </div>
+                    <div class="content-box_nom">
+                        <form action="/ma-page-de-traitement" method="post">
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom">
+                            <label for="prenom">Prénom:</label>
+                            <input type="text" id="prenom" name="prenom" value=" "/>
+                            <label for="mail">Email :</label>
+                            <input type="email" id="email" name="email">     
+                        </form>
+                    </div>
+                    <div class="content-box_cb">
+                        <form action="/ma-page-de-traitement" method="post">
+                            <label>Numéro carte :</label>
+                            <input type="number" id="numéro_carte" >
+                            <label>CCV :</label>
+                            <input type="number" id="numérosecret" >
+                            <label>Nom titulaire :</label>
+                            <input type="text" id="nom/prenom">
+                            <label>Date expiration :</label>
+                            <input type="month" id="date_expiration">
+                            <div class= "bouton_submit">
+                                <input type="submit" name="Payer" value="Payer"/>
+                                
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-
+            <div class="espace"></div>
             <footer>
                 <div class="footer-basic">
                     <div class="social">

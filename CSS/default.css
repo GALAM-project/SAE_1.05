@@ -406,6 +406,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #5CC8FF;
+    box-shadow: 60px -16px #343633;
     margin: 2em;
 }
 
@@ -429,6 +430,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #4A66E0;
+    box-shadow: -60px 16px #343633;
     margin: 2em;
 }
 
@@ -451,6 +453,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #5CC8FF;
+    box-shadow: 60px -16px #343633;
     margin: 2em;
 }
 
@@ -473,6 +476,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #4A66E0;
+    box-shadow: -60px 16px #343633;
     margin: 2em;
 }
 
@@ -491,18 +495,43 @@ p.dotted
     padding-right: 5em;
 }
 
-/*css de la billeterie*/
+.avant_animation{
+  display:flex;
+  flex-direction: row;
+  background-color: #5CC8FF;
+  box-shadow: 60px -16px #343633;
+  margin: 2em;
+}
+
+.img_avant_anim{
+  display:flex;
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+}
+
+.desc_avant_anim{
+  display:flex;
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  padding-right: 5em;
+}
+
+/*css de la billeterie et exposants*/
 .content-box_tarifs{
   display: flex;
   margin: 2em;
-  box-sizing: initial;
   margin-bottom: 6em;
   margin-top: 6em;
   background: #e8daef;
   justify-content: space-around;
   padding: 2%;
 }
-
+.content-box_tarifs img{
+  height:15em;
+  width:auto;
+}
 
 .content-box-form{
   display: flex;
@@ -526,24 +555,15 @@ p.dotted
   display: flex;
   flex-direction: row;
 }
-.content-box_tarifs{
-  display: flex;
-  margin: 2em;
-  box-sizing: initial;
-  margin-bottom: 6em;
-  margin-top: 6em;
-  background: #e8daef;
-  justify-content: space-around;
-  padding: 2%;
-  height: 12em;
-  width: auto;
-}
 
 .bouton_submit{
   display: flex;
-  height: 20px;
+
   padding-top: 1em;
-} 
+}
+input,select{
+  font-size:20px;
+}
 
 
 /* Partie CSS page Lieu */
