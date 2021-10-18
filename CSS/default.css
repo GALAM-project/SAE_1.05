@@ -722,6 +722,11 @@ input,select{
   display: flex;
   flex-direction: column;
 }
+.contactez-nous h3{
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+}
 
 /*CSS FAQ*/
 

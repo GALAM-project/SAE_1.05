@@ -122,6 +122,13 @@
   padding-left: 1ex;
   padding-right: 1ex;
   }
+  /* contactez nous */ 
+  .contactez-nous h3{
+    font-size:20px;
+  }
+  .contactez-nous {
+    font-size:10px;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1000px)
@@ -246,6 +253,13 @@
   padding-left: 1ex;
   padding-right: 1ex;
   }
+  /* contactez nous */ 
+  .contactez-nous h3{
+    font-size:30px;
+  }
+  .contactez-nous {
+    font-size:10px;
+  }
 }
 
 
@@ -318,7 +332,10 @@
     font-size:20px;
     border-radius: 0% 0% 0% 0%;
   }
-  
+  /* contactez nous */ 
+  .contactez-nous h3{
+    font-size:30px;
+  }
 }
 
 
@@ -384,8 +401,6 @@
   .NTNT_Team{
     height:7em;
   }
-  
-      
 }
 
 /* lèrement inférieur à celui d'en dessous screen, pour l'accueil */
