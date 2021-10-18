@@ -314,6 +314,11 @@
   .NTNT_Team{
     height:5em;
   }
+  .concert li p{
+    font-size:20px;
+    border-radius: 0% 0% 0% 0%;
+  }
+  
 }
 
 
@@ -379,6 +384,7 @@
   .NTNT_Team{
     height:7em;
   }
+  
       
 }
 
@@ -525,6 +531,10 @@
   .lieu{ 
     line-height: 100%;
   }
+  .concert li p{
+    font-size:30px;
+    border-radius: 0% 15% 0% 0%;
+  }
 }
 
 /* 4K screen */
@@ -563,6 +573,10 @@
       }
       .lieu{ 
         line-height: 100%;
+      }
+      .concert li p{
+        font-size:30px;
+        border-radius: 0% 15% 0% 0%;
       }
   
 }
