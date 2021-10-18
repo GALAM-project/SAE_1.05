@@ -495,6 +495,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #5CC8FF;
+    box-shadow: 60px -16px #343633;
     margin: 2em;
 }
 
@@ -518,6 +519,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #4A66E0;
+    box-shadow: -60px 16px #343633;
     margin: 2em;
 }
 
@@ -540,6 +542,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #5CC8FF;
+    box-shadow: 60px -16px #343633;
     margin: 2em;
 }
 
@@ -562,6 +565,7 @@ p.dotted
     display:flex;
     flex-direction: row;
     background-color: #4A66E0;
+    box-shadow: -60px 16px #343633;
     margin: 2em;
 }
 
@@ -578,6 +582,29 @@ p.dotted
     margin: 2em;
     padding: 2em;
     padding-right: 5em;
+}
+
+.avant_animation{
+  display:flex;
+  flex-direction: row;
+  background-color: #5CC8FF;
+  box-shadow: 60px -16px #343633;
+  margin: 2em;
+}
+
+.img_avant_anim{
+  display:flex;
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+}
+
+.desc_avant_anim{
+  display:flex;
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  padding-right: 5em;
 }
 
 /*css de la billeterie et exposants*/
