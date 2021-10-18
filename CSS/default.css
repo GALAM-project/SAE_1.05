@@ -562,8 +562,8 @@ input,select{
     align-items: center;
     background-color: #6eafdb;
     margin: 5em;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .map_lieu{
