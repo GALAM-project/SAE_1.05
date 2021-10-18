@@ -68,6 +68,10 @@
       .text_accueil li span {
           font-size: 22px;
         }
+        .corps_accueil video {
+          width: auto;
+          height: auto;
+        }
 }
 
 @media (min-width: 700px) and (max-width: 1000px)
@@ -138,6 +142,10 @@
   
       .text_accueil li span {
           font-size: 22px;
+        }
+        .corps_accueil video {
+          width: auto;
+          height: auto;
         }
 }
 
@@ -249,7 +257,7 @@
     .text_accueil li span {
         font-size: 26px;
       }
-    
+
 }
 
 /* lèrement inférieur à celui d'en dessous screen, pour l'accueil */
@@ -275,6 +283,7 @@
     .text_accueil li span {
         font-size: 32px;
       }
+      
 }
 
 /* lèrement inférieur à celui d'en dessous screen, pour l'accueil */

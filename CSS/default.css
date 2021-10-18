@@ -11,10 +11,12 @@ padding: 0px;
 }
 
 body, html{height:100%;}
-
+  
 body { 
   overflow-x: hidden;
   background: radial-gradient(#e66465, #9198e5);
+  font-family: 'dosis';
+  font-size: 1.4em;
 }
 
 body::-webkit-scrollbar {
@@ -42,6 +44,12 @@ body::-webkit-scrollbar-thumb {
 h1 { 
   display: none; 
 }
+h2 {
+  text-transform: uppercase;
+  font-family: 'dolcevita';
+  font-size: 2.5em;
+  margin: 0;
+  }
 
 .titre{
   display: flex;
@@ -54,6 +62,10 @@ h1 {
   margin-bottom: 3em;
   justify-content: center;
   font-size: 32px;
+}
+
+.espace {
+  padding:1em;
 }
 
 /* header */
@@ -317,6 +329,7 @@ footer {
 
 .text_accueil p {
   font-size: 32px;
+  text-shadow: 1px 2px 3px rgba(0,0,0, .7);
 }
 
 .text_accueil ul {
@@ -324,6 +337,7 @@ footer {
   list-style: none;
   margin-left: 1.7ex;
   line-height: 50%;
+  text-shadow: 1px 2px 3px rgba(0,0,0, .7);
 }
 
 .text_accueil li#JV { 
@@ -355,9 +369,22 @@ p.dotted
   margin-bottom: 1em;
 }
 
-.espace {
-  padding:1em;
+
+
+/* Concert */ 
+
+.corps_accueil video {
+  width: 200%;
+  height: 100%;
+  margin-left: 0ex;
+  border: 1ex solid #37388B;
 }
+
+
+.controlsContainer { 
+  --clickToPlay-size: 0em !important; 
+}
+
 
 /* Partie CSS page animation*/
 
@@ -683,3 +710,10 @@ p.dotted
   margin: 0.5em;
   background-color: white;
 }
+
+
+
+
+
+
+
