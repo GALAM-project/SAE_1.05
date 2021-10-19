@@ -732,5 +732,28 @@
         margin: 2em;
         padding: 2em;
     }
+  
+    .avant_animation{
+      display:flex;
+      flex-direction: column;
+      background-color: #5CC8FF;
+      margin: 2em;
+  }
+  
+  .img_avant_anim{
+      display:flex;
+      background-color: white;
+      justify-content: center;
+      margin: 2em;
+      padding: 2em;
+  }
+  
+  .desc_avant_anim{
+      display:flex;
+      background-color: white;
+      margin: 2em;
+      padding: 2em;
+      padding-left: 5em;
+  }
 }
 
